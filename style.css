@@ -1,0 +1,32 @@
+ .hero{
+     z-index: -1;
+     background-image: url(./image/blogs.jpg);
+     background-size: cover;
+     background-repeat:no-repeat;
+     height: 600px;
+     width: 100%;
+     position: relative;
+ }
+.row{
+  
+  
+}
+.articles{
+    padding: 7em 0;
+}
+.gap{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    position: absolute;
+}
+nav{
+    background-color: #C030ED;
+
+}
+ 

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>User Pge</title>
+    
+        <!-- Custom fonts for this template -->
+        <link href="fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="bootstrap.min.css" rel="stylesheet">
+        </head>
+    <style>
+        #sticky-sidebar {
+        position:fixed;
+       
+}
+        .sidebar-content{
+          background-color:  green;
+          color: #b7b9cc;
+           padding-left: 2%;
+           position:fixed;
+
+        }
+.line-vertical {
+         width: 1px;
+         height: 34px;
+         float: left;
+         background-color: green;
+         margin: 10px;
+         
+        }
+        .center {
+                padding-top: 5%;
+                text-align: center;
+                width: 100%;
+            }  
+        .Table-content{
+          padding: 3%;
+        }             
+    </style>
+    <body>
+       
+        
+        <div class="Container">
+            
+            <div class="row">
+                <div class="col-sm-2" style="background-color: green;" ></div>
+                <div class="col-sm-10">
+                    <nav class="navbar navbar-light bg-light" style="background-color: green;">
+                    <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success " type="submit">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </form>
+                    <ul class="navbar-nav ml-auto">
+                        <form class="form-inline">
+                            <button class="btn btn-outline-success " type="submit">
+                                <i class="fas fa-envelope-square"></i>
+                            </button>
+                            
+                          <hr class="line-vertical"/>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect" id="navbarDropdownMenuLink3" data-toggle="dropdown"
+                              aria-haspopup="true" aria-expanded="true">
+                              <button class="btn btn-outline-success " type="submit">
+                                <i class="far fa-user"></i>
+                                
+                    
+                            </button>
+                            </a>
+                           
+                           
+                          </form>
+
+                    </ul>
+                  </nav><br><br>
+                  <div class="col-sm-12">
+                      <div class="card shadow mb-10"> 
+                        <div class="card-header py-3">
+                          <p style="text-align:left;font-size: 180%;">
+                            <b>ADD NEW Blog</b>
+                            <span style="float:right;">
+                              <a href="User_page.html">
+                                <button class="btn  btn-outline-success rounded-circle" type="submit">
+                                  <i class="fas fa-plus-circle fa-1"></i></button>
+                              </a>
+                              
+                            </span>
+                        </p>
+                         
+                        
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="Table-content">
+                        <div class="card shadow mb-10"> 
+                          <div class="card-header py-3">
+                            <p style="text-align:left;font-size: 180%;">
+                              <b>Confirm Your display Name</b>
+                              <hr>
+                          </p>
+                          <div class="card-body">
+                            <p>
+                              Your Name will be display on your blog.
+                            </p>
+                           <form>
+                            <div class="col-sm-10 " >
+                              <label for="validationTooltip01"></label>
+                              <input style="color: green;"  type="text" class="form-control" id="validationTooltip01" placeholder="Enter Your Name" maxlength="100" value="" required>
+                              <div class="valid-tooltip">
+                                Looks good!
+                              </div><br>
+                              <p style="text-align: right;">
+                                <button class="btn btn-outline-success " type="submit">
+                                  <i class="far fa-check-square ">  Done</i>
+                              </button>
+                              </p>
+                            </div>
+                           </form>
+                          </div>                          
+                          </div>
+                        </div><br>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="Table-content">
+                        <div class="card shadow mb-10"> 
+                          <div class="card-header py-3">
+                            <p style="text-align:left;font-size: 180%;">
+                              <b>Confirm a name of your blog</b>
+                              <hr>
+                          </p>
+                          <div class="card-body">
+                            <p>
+                              This is the title that will dispay at the top of Your blog.
+                            </p>
+                           <form>
+                            <div class="col-sm-10 " >
+                              <label for="validationTooltip01"></label>
+                              <input style="color: green;"  type="text" class="form-control" id="validationTooltip01" placeholder="Enter blog name" maxlength="100" value="" required>
+                              <div class="valid-tooltip">
+                                Looks good!
+                              </div><br>
+                              <p style="text-align: right;">
+                                <button class="btn btn-outline-success " type="submit">
+                                  <i class="far fa-check-square ">  Done</i>
+                              </button>
+                              </p>
+                            </div>
+                           </form>
+                          </div>                          
+                          </div>
+                        </div><br>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="Table-content">
+                        <div class="card shadow mb-10"> 
+                          <div class="card-header py-3">
+                            <p style="text-align:left;font-size: 180%;">
+                              <b>Confirm a URL for your blog</b>
+                              <hr>
+                          </p>
+                          <div class="card-body">
+                            <p>
+                              This web Address is how people will find you online.
+                            </p>
+                           <form>
+                            <div class="col-sm-10 " >
+                              <label for="validationTooltip01"></label>
+                              <input style="color: green;"  type="text" class="form-control" id="validationTooltip01" placeholder="Enter Your Address" maxlength="100" value="" required>
+                              <div class="valid-tooltip">
+                                Looks good!
+                              </div><br>
+                              <p style="text-align: right;">
+                                <button class="btn btn-outline-success " type="submit">
+                                  <i class="far fa-check-square ">  Done</i>
+                              </button>
+                              </p>
+                            </div>
+                           </form>
+                          </div>                          
+                          </div>
+                        </div><br>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="Table-content">
+                        <div class="card shadow mb-10"> 
+                          <div class="card-header py-3">
+                            <p style="text-align:left;font-size: 180%;">
+                              <b>Choose  a Picture For your Blog</b>
+                              <hr>
+                          </p>
+
+                         
+                         
+
+
+                          <div class="card-body">
+                            <p>
+                              This picture will display on your blog .
+                            </p>
+                           <form>
+                            <div class="col-sm-10 " >
+                              <div class="input-group is-invalid" >
+                                <div class="custom-file">
+                                  <input type="file" class="custom-file-input" id="validatedInputGroupCustomFile" required>
+                              <label class="custom-file-label" for="validatedInputGroupCustomFile">Choose file...</label>
+
+                                </div>
+
+                              </div>
+                              <br>
+                              <p style="text-align: right;">
+                                <button class="btn btn-outline-success " type="submit">
+                                  <i class="far fa-check-square ">  Done</i>
+                              </button>
+                              </p>
+                            </div>
+                           </form>
+                          </div>                          
+                          </div>
+                        </div><br>
+                      </div>
+                    </div>
+                    <div class="col-sm-12">
+                      <div class="card-header">
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Example textarea</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter Your Blog" rows="3"></textarea>
+                        </div>
+                        <p style="text-align: right;">
+                          <button class="btn btn-outline-success " type="submit">
+                            <i class="fas fa-upload"> Publish</i>
+                        </button>
+                        </p>
+                      </div>
+                      
+                      
+                      
+                    </div>
+                   
+
+                  </div>
+                  <footer class="sticky-footer ">
+                    <div class="container">
+                        <div class="copyright text-center">
+                            <span>Copyright &copy; Your Website 2021</span>
+                        </div>
+                    </div>
+                  </footer>
+                 
+                  
+                </div>
+                <div class="col-sm-2 sidebar-content" id="sticky-sidebar"  >
+                  <i class="fas fa-laugh-wink fa-3x center" style="color: white; vertical-align: middle;"></i>
+                  <hr>
+                  <p>ADDONS</p> 
+                  <hr>
+                  <i class="fas fa-house-user"></i>
+                  <span>
+                    <a href="index.html">
+                      
+                    <button class="btn btn-outline-succes " style="color:  #b7b9cc;" type="submit">Home</button>
+                    </a>
+                    
+                  </span>
+                  
+                  <hr>
+                  <i class="fas fa-folder-plus"></i>
+                  <span>
+                    <a href="User_page.html">
+                      
+                    <button class="btn btn-outline-succes " style="color:  #b7b9cc;" type="submit">New Post</button>
+                    </a>
+                    
+                  </span>
+                  <hr>     
+                  <i class="far fa-edit"></i>
+                  <span>
+                    <a href="User_page.html">
+                      
+                    <button class="btn btn-outline-succes " style="color:  #b7b9cc;" type="submit">Edit Post</button>
+                    </a>
+                    
+                  </span>
+                  <hr>     
+                  <i class="fas fa-folder-minus"></i>
+                  <span>
+                    <a href="User_page.html">
+                      
+                    <button class="btn btn-outline-succes " style="color:  #b7b9cc;" type="submit">Delete Post</button>
+                    </a>
+                    
+                  </span>
+                  <hr>
+                               
+                  <i class="far fa-eye-slash"></i>
+                  <span>
+                  <a href="User_page.html">
+                    
+                    <button class="btn btn-outline-succes " style="color:  #b7b9cc;" type="submit">Hide Post</button>
+                  </a></span>
+                 
+                  <hr>  
+                  <br>
+                  <br><br><br><br><br><br>
+                  <br><br><br><br><br><br>
+                  <br><br><br><br><br><br>
+                  
+                </div>  
+              </div>
+                
+          </div>
+         
+        </div>
+
+    </body>
+</html>
